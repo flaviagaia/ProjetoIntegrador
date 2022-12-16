@@ -1,0 +1,149 @@
+%----------------------------
+% Projeto Integrador
+% Aluno: xpto
+%----------------------------
+\documentclass[12pt]{article}
+\usepackage{sty/sbc-template}
+\sloppy
+
+%----------------------------
+\title{-Tema do Seu Projeto-}
+\author{ -Seu Nome- }
+\address{Centro Universitário IESB -- Brasília -- DF -- Brazil}
+%----------------------------
+
+\begin{document} 
+
+\maketitle
+
+\vspace*{30pt}
+
+\begin{abstract}
+ \lipsum[4-1]
+\end{abstract}
+ 
+\begin{resumo} 
+ \lipsum[3-1]
+\end{resumo}
+
+\newpage
+
+\clearpage
+\tableofcontents % Mostra a tabela de conteudo
+
+\newpage
+
+\section{Concepção do Projeto}
+No artigo científico, o assunto investigado fundamenta-se em pesquisas bibliográficas e empíricas, para contribuir com a construção do conhecimento, por meio de uma reflexão crítica. Nesse sentido, o texto deve expressar como se deu a construção da abordagem realizada, as leituras e interpretações empreendidas em sua elaboração.
+
+TODA CITAÇÃO deve incorrer em "Abre aspas, Texto do Autor e sua referência bibliográfica". \cite{boulic:91} É considerado plágio "Não citar o autor correto da frase ou referência". \cite{knuth:84} Não precisa de muita coisa, "apenas coloque a frase entre aspas para indicar que não é sua". \cite{smith:99}
+
+\lipsum[13-1]
+
+\section{Pesquisa}
+\textbf{Pesquise}: um dos objetivos do projeto integrador é estimular as pesquisas científicas. Mas isso não significa que você deve ficar limitado a estudar o trabalho de outros pesquisadores\footnote{Esta é uma nota de rodapé para explicar algo}. Você pode fazer sua própria pesquisa e desenvolver soluções que antes não foram pensadas. É a apresentação da experiência vivida, contextualizada e fundamentada por um aporte teórico que deve revelar a aproximação da teoria com a prática.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{images/fig1.jpg}
+	\caption{Uma Simples Figura}
+\end{figure}
+
+\lipsum[5-1]
+
+\section{Montagem do Projeto}
+\textbf{Planeje}: para que seu projeto saia do papel é preciso planejar tudo que você precisará fazer para executá-lo. Isso significa determinar um horário para o estudo, criar um cronograma, especificar como fará o \textbf{Projeto Integrador}. O ideal é que planeje todos os detalhes para que suas ações sejam mais efetivas.
+
+Este projeto contou com os seguintes materiais abaixo descritos:
+\begin{itemize}
+	\item 1 LED de alto brilho
+	\item 1 Resistor de 220 $\Omega$
+	\item 1 Suporte para 2 pilhas
+	\item 1 paliteiro
+	\item 2 fios (nas cores preta e vermelha) com tamanho suficiente para realizar as ligações, uns 30cm.
+	\item Ferro de solda e estanho para as ligações
+	\item Fita isolante, fio térmico ou cola quente para isolar as ligações
+\end{itemize}
+
+Descrição da utilidade dos materiais e porquê do seu uso.
+
+\subsection{Descrição das Atividades}
+\textbf{Execute}: não fique preso apenas na organização do seu trabalho. Você deverá executá-lo seguindo cada uma das etapas que você determinou através do planejamento. Coloque em prática tudo que você planejou e seja disciplinado para não deixar o projeto de lado. Descreva os objetivos, relacionando-os com as práticas realizadas. Indique os recursos necessários para a realização de cada etapa. Detalhe as atividades, experiências e exemplifique.
+
+Fotos e descrições...
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{images/fig1.jpg}
+	\caption{Foto 1 da Montagem}
+\end{figure}
+
+\subsection{Programação}
+
+Código necessário para rodar o projeto...
+
+\begin{lstlisting}[]
+Codigos do seu programa vem aqui
+
+Nao use acentos.
+\end{lstlisting}
+
+\section{Avaliação dos Resultados}
+Destacar quais objetivos foram alcançados. Apresentar reflexões pontuais sobre aspectos como: os impactos que as atividades propostas tiveram sobre os envolvidos; as dificuldades encontradas e as estratégias para sua solução.
+
+\lipsum[7-2]
+
+\section{Conclusões}
+Relato da experiência com as considerações pessoais sobre como foi realizar a atividade, o que contribuiu para sua formação pessoal e profissional, quais são suas conclusões identificadas ao final dessa experiência e o que ela agregou.
+
+Exemplo de Tabela:
+\begin{table}[H]
+	\centering 
+	\begin{tabular}{c | l | c | r }
+		\textbf{Prefixo} & \textbf{Valor} & \textbf{Forma Padrão} & \textbf{Símbolo} \\
+		\hline
+		milli & 0,001 & $10^{-3}$ & m \\
+		micro & 0,000001 & $10^{-6}$ & $\mu$ \\
+		Ângström & 0,0000000001 & $10^{-10}$ & Â \\
+		pico & 0,000000000001 & $10^{-12}$ & p \\
+	\end{tabular}
+\end{table}
+
+\lipsum[8-2]
+
+\subsection{Relato da Experiência}
+Proporcionar uma oportunidade de desenvolver um trabalho prático que integre as diversas teorias abordadas pelas disciplinas cursadas no semestre letivo e a compreensão da dinâmica das atividades profissionais, por meio do entendimento dos processos.
+
+\lipsum[10-3]
+
+\bibliographystyle{sty/projIntegrador}
+% --------------------------------------
+% Veja o Arquivo projIntegrador.bib para compor a bibliografia.
+% --------------------------------------
+% Campos que podem ser usados:
+% 
+% address
+% author
+% booktitle
+% chapter
+% edition
+% editor
+% howpublished
+% institution
+% journal
+% key
+% note
+% number
+% organization
+% pages
+% publisher
+% school
+% series
+% title
+% type
+% volume
+% year
+% --------------------------------------
+\bibliography{projIntegrador}
+
+\end{document}

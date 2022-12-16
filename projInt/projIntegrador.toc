@@ -1,0 +1,9 @@
+\babel@toc {brazil}{}
+\contentsline {section}{\numberline {1}Concep\c c\~ao do Projeto}{3}%
+\contentsline {section}{\numberline {2}Pesquisa}{3}%
+\contentsline {section}{\numberline {3}Montagem do Projeto}{4}%
+\contentsline {subsection}{\numberline {3.1}Descri\c c\~ao das Atividades}{4}%
+\contentsline {subsection}{\numberline {3.2}Programa\c c\~ao}{5}%
+\contentsline {section}{\numberline {4}Avalia\c c\~ao dos Resultados}{5}%
+\contentsline {section}{\numberline {5}Conclus\~oes}{5}%
+\contentsline {subsection}{\numberline {5.1}Relato da Experi\^encia}{6}%
